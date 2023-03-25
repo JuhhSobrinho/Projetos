@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(138, 138, 138);
+}
+
+.calculadora {
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+    border-radius: 35px 5px 35px 5px;
+    margin-right: 20px;
+    box-shadow: 0 0 2em rgb(8, 8, 8);
+}
+
+.valores {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.valores input[type="text"] {
+    text-decoration: none;
+    background: none;
+    color: white;
+    border-radius: 17px;
+    border: 1px solid cyan;
+    padding: 9px 10px;
+    text-align: center;
+}
+
+input[type=text]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.valores input[type="text"]:hover,
+select:hover {
+    border: 1px solid rgb(82, 19, 119);
+    transition: 0.25s;
+    border-radius: 5px;
+}
+
+.resposta {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.resposta input[type="button"]{
+    background: none;
+    border-radius: 14px;
+    padding: 6px 10px;
+    border: 2px solid rgb(82, 19, 119);
+    color: white;
+}
+
+.resposta input[type="button"]:hover {
+    background: none;
+    border: 2px solid rgb(95, 95, 95);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+.resposta input[type="button"]:focus {
+    background: rgb(95, 95, 95);
+    border: 2px solid rgb(95, 95, 95);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.35s;
+}
+
+.resposta input[type="text"] {
+    text-decoration: none;
+    background: none;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(82, 19, 119);
+    padding: 9px 10px;
+    text-align: center;
+    cursor: context-menu;
+}
+
+.resposta input[type="text"]:hover {
+    border: 2px solid cyan;
+    border-radius: 10px;
+    transition: 0.35s;
+}
+
+.operacao {
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+label {
+    color: white;
+}
+
+select {
+    text-decoration: none;
+    background: rgb(29, 29, 29) !important;
+    color: white;
+    border-radius: 17px;
+    border: 1px solid cyan;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+}
